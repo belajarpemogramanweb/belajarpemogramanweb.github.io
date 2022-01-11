@@ -1,24 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-<title>Halaman Login</title>
-<script type="text/javascript">
-  function masuk() {
-  var username = document.login.username.value;
-  var password = document.login.password.value;
-  if (username == "123" && password == "123") {
-      alert("Anda berhasil login!");
-  }
-  else {
-      alert("Maaf, username atau password yang Anda masukkan salah.");
-  }
-}
-</script>
+    <form action="koneksi1.php" method="get">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Transparent Login Form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<form action="beranda.html" method="get">
-Username : <input type="text" name="username">
-Password : <input type="password" name="password">
-<input type="submit" name="submit" value="Login"> 
-</form>
+<body>
+    <div class="loginBox">
+        <img src="https://api-frontend.kemdikbud.go.id/v2/detail_pt_logo/OUJFMERGNzAtODk3NC00Q0JBLUEwQzAtMEI3NjczQkE0MEU4" class="user">
+        <h2>Admin</h2>
+        <form>
+	    <from action="beranda.html" method="get">
+            <p>username</p>
+            <input type="text" name="" placeholder="Enter Email">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter password">
+            <input type="submit" name="" value="LOGIN">
+        </form>
+    </div>
 </body>
 </html>
